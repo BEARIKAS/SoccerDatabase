@@ -12,7 +12,7 @@ Soccer Database for soccer application later on
 8. Click test connection, if it doesn't work it is probably a password or username error, if anything else, maybe the database name
 9. click save connection
 10. click open connection
-11. copy paste the naruraljoin code into your new SoccerDatabase.session
+11. copy paste the naturaljoin code into your new SoccerDatabase.session
 12. Run the Teams, Players, Matches, Stadiums blocks
 13. run "pip install kaggle pandas mysql-connector-python" in terminal
 14. in each python file there is database connection code called db_config in json format, you probably need to change the password, possibly the username and database name as well
