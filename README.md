@@ -14,7 +14,7 @@ Soccer Database for soccer application later on
 10. click open connection
 11. copy paste the naturaljoin code into your new SoccerDatabase.session
 12. Run the Teams, Players, Matches, Stadiums blocks
-13. run "pip install kaggle pandas mysql-connector-python" in terminal
+13. run "pip install kaggle pandas mysql-connector-python" and "pip install pandas mysql-connector-python pyarrow" in terminal
 14. in each python file there is database connection code called db_config in json format, you probably need to change the password, possibly the username and database name as well
 15. Run the Python files in playerteamloader, stadiumloader, matchesloader order
 16. Now you can run queries in the SQL session file using -- @block (your query)
