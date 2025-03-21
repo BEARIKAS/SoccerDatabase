@@ -75,18 +75,3 @@ CREATE TABLE Favorite_Players (
     FOREIGN KEY (Player_ID) REFERENCES Players(Player_ID)
 );
 
--- @block
-SELECT * FROM players
-LIMIT 30;
-
--- @block
-SELECT * FROM teams
-WHERE Team_ID = 4
-
-
--- @block
-DELETE FROM players;
-DELETE FROM teams;
-
--- @block
-DROP TABLE stadiums;
