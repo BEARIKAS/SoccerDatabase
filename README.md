@@ -18,3 +18,8 @@ Soccer Database for soccer application later on
 14. in each python file there is database connection code called db_config in json format, you probably need to change the password, possibly the username and database name as well
 15. Run the Python files in playerteamloader, stadiumloader, matchesloader order
 16. Now you can run queries in the SQL session file using -- @block (your query)
+
+# Datasets: 
+Matches: https://github.com/schochastics/football-data/blob/master/data/results/games.parquet
+Stadiums: https://www.kaggle.com/datasets/imtkaggleteam/football-stadiums?resource=download
+Players/Teams: https://www.kaggle.com/datasets/antoinekrajnc/soccer-players-statistics
