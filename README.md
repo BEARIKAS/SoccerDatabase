@@ -20,6 +20,6 @@ Soccer Database for soccer application later on
 16. Now you can run queries in the SQL session file using -- @block (your query)
 
 # Datasets: 
-Matches: https://github.com/schochastics/football-data/blob/master/data/results/games.parquet
-Stadiums: https://www.kaggle.com/datasets/imtkaggleteam/football-stadiums?resource=download
+Matches: https://github.com/schochastics/football-data/blob/master/data/results/games.parquet \n
+Stadiums: https://www.kaggle.com/datasets/imtkaggleteam/football-stadiums?resource=download \n
 Players/Teams: https://www.kaggle.com/datasets/antoinekrajnc/soccer-players-statistics
