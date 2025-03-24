@@ -1,5 +1,6 @@
 # SoccerDatabase
 Soccer Database for soccer application later on
+
 **Steps to just have the database locally**
 1. Download soccerpopulated.sql
 2. create a new database in your terminal called soccer (**enter** "mysql -u root -p", entere your password, and **then** create a new database "CREATE DATABASE soccer;")
