@@ -1,7 +1,20 @@
 # SoccerDatabase
 Soccer Database for soccer application later on
+**Steps to just have the database locally**
+1. Download soccerpopulated.sql
+2. create a new database in your terminal called soccer (**enter** "mysql -u root -p", entere your password, and **then** create a new database "CREATE DATABASE soccer;")
+3. Download the SQLTools and SQLTools driver extensions in vscode
+4. create a new connection, called whatever, but fill in database (soccer), username (root), and password (choose the save as plaintext option)
+5. click test connection
+6. click save connection
+7. click connect now
+8. click run on active connection at the top of soccerpopulated.sql, it may ask you to choose the connections you just created
+9. database should be live and you can connect to it in terminal
 
-**Steps to run locally** (need python and mysql installed)
+
+
+
+**Steps to run locally to insert data yourself** (need python and mysql installed)
 1. Have mysql installed, remember your password and username
 2. In VScode, install SQLTools and the first driver that comes up when you search SQLTools Driver in extensions
 3. Now in your cmd or terminal enter "mysql -u root -p" and create a new database "CREATE DATABASE soccer;" 
